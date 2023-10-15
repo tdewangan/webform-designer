@@ -1,0 +1,26 @@
+<mat-accordion multi>
+  <mat-expansion-panel expanded="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title>Layout</mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-action-list>
+      <button mat-list-item (click)="add('accordion')">Accordion</button>
+      <button mat-list-item (click)="add('divider')">Divider</button>
+      <button mat-list-item (click)="add('section')">Section</button>
+    </mat-action-list>
+  </mat-expansion-panel>
+  <mat-expansion-panel expanded="true">
+    <mat-expansion-panel-header>
+      <mat-panel-title>Form Controls</mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-action-list>
+      <button mat-list-item (click)="add('textbox')">Textbox</button>
+      <button mat-list-item (click)="add('textarea')">Textarea</button>
+      <button mat-list-item (click)="add('dropdown')">Dropdown</button>
+      <button mat-list-item (click)="add('datepicker')">Datepicker</button>
+      <button mat-list-item (click)="add('checkbox')">Checkbox</button>
+      <button mat-list-item (click)="add('radiogroup')">Radio Group</button>
+      <button mat-list-item (click)="add('button')">Button</button>
+    </mat-action-list>
+  </mat-expansion-panel>
+</mat-accordion>

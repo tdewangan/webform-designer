@@ -1,2 +1,12 @@
-<p>webform-detail works!</p>
-<a routerLink="/webform/list">Webform list</a>
+<mat-drawer-container class="example-container">
+  <mat-drawer #left mode="side" opened>
+    <zul-webform-controls-tray></zul-webform-controls-tray>
+  </mat-drawer>
+  <mat-drawer-content>
+    <p>webform-detail works!</p>
+    <a routerLink="/webform/list">Webform list</a>
+  </mat-drawer-content>
+  <mat-drawer #right mode="side" position="end" opened>
+    <zul-webform-control-properties-tray></zul-webform-control-properties-tray>
+  </mat-drawer>
+</mat-drawer-container>
